@@ -9,6 +9,9 @@ body {
     padding: 10px;
     margin: 0;
 }
+.name{
+	color: white;
+}
 h1 {
     font-size: 15pt;
     color: #20bcd5;
@@ -35,8 +38,14 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-image: url("1_2.gif") ;
+	background-position:0px 210px;
     background-size: cover;
+}
+#header-mask {
+    height:100%;
+    width:100%;
+    background:rgba(0,0,0,.5);
 }
 #header img {
     display: block;
